@@ -2,6 +2,7 @@
 import /oem/oem.prop ro.product.model
 import /oem/oem.prop persist.radio.multisim.config
 ro.product.model.platform=1
+ro.product.device=shamrock
 audio.dolby.ds2.enabled=true
 audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=64
