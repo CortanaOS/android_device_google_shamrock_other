@@ -14,13 +14,20 @@
 
 $(call inherit-product, device/google/shamrock/full_shamrock.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+## Inherit some common Zephyr stuff.
+$(call inherit-product, vendor/zos/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8952
 
-PRODUCT_NAME := cm_shamrock
+# Boot animation
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1920
+
+# Zephyr Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Vedat Ak (Incredible)"
+
+PRODUCT_NAME := zos_shamrock
 BOARD_VENDOR := google
 PRODUCT_DEVICE := shamrock
 
