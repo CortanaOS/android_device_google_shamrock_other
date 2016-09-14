@@ -22,3 +22,6 @@ include device/google/shamrock/board/*.mk
 
 # Build a seperate vendor
 TARGET_COPY_OUT_VENDOR := system
+
+# TWRP Resoulation Chooser 
+TW_THEME := portrait_hdpi
