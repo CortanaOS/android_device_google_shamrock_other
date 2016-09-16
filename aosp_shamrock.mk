@@ -14,13 +14,13 @@
 
 $(call inherit-product, device/google/shamrock/full_shamrock.mk)
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8952
 
-PRODUCT_NAME := slim_shamrock
+PRODUCT_NAME := aosp_shamrock
 BOARD_VENDOR := google
 PRODUCT_DEVICE := shamrock
 
