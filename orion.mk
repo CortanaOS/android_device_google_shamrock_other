@@ -15,12 +15,12 @@
 $(call inherit-product, device/google/shamrock/full_shamrock.mk)
 
 # Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8952
 
-PRODUCT_NAME := slim_shamrock
+PRODUCT_NAME := orion_shamrock
 BOARD_VENDOR := google
 PRODUCT_DEVICE := shamrock
 
@@ -33,3 +33,4 @@ TARGET_VENDOR := google
 TARGET_VENDOR_PRODUCT_NAME := Shamrock
 TARGET_VENDOR_DEVICE_NAME := shamrock
 
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Vedat AK (Incredible)"
