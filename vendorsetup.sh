@@ -1,2 +1,1 @@
-add_lunch_combo slim_shamrock-userdebug
-add_lunch_combo slim_shamrock-debug
+add_lunch_combo aosp_shamrock-userdebug
