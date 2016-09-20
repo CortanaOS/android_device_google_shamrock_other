@@ -15,4 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_shamrock.mk \
-	$(LOCAL_DIR)/nitrogen_shamrock.mk
+    $(LOCAL_DIR)/nitrogen_shamrock.mk
