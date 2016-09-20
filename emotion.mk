@@ -15,12 +15,12 @@
 $(call inherit-product, device/google/shamrock/full_shamrock.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/emotion/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8952
 
-PRODUCT_NAME := cm_shamrock
+PRODUCT_NAME := emotion_shamrock
 BOARD_VENDOR := google
 PRODUCT_DEVICE := shamrock
 
