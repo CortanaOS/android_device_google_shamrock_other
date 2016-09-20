@@ -1,2 +1,2 @@
-add_lunch_combo cm_shamrock-userdebug
-add_lunch_combo cm_shamrock-debug
+add_lunch_combo nitrogen_shamrock-userdebug
+add_lunch_combo nitrogen_shamrock-debug
