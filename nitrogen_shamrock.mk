@@ -24,7 +24,7 @@ $(call inherit-product, vendor/nitrogen/products/common.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8952
 
-PRODUCT_NAME := cm_shamrock
+PRODUCT_NAME := nitrogen_shamrock
 BOARD_VENDOR := google
 PRODUCT_DEVICE := shamrock
 
