@@ -2,4 +2,4 @@
 PRODUCT_PACKAGES += \
     libcalmodule_common \
     LsmCalibration \
-    sensors.msm8952
+    sensors.msm8916
