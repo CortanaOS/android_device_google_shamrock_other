@@ -1,6 +1,6 @@
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8952 \
+    camera.msm8916 \
     libmm-qcamera \
     Snap
 
